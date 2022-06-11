@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAP</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.svg" alt="Snap">
+        </div>
+        <div class="links">
+            <nav class="left-nav">
+                <ul>
+                    <li>
+                       <a  href="#"  >features <img id="up" onclick="closeDropDownFeatures()"  src="icon-arrow-up.svg" alt=""> <img  onclick="openDropDownFeatures()" id="down" src="icon-arrow-down.svg" alt=""></a> 
+                        <div  class="drop-down">
+                            <ul id="dropDown">
+                                <li><img src="icon-todo.svg" alt=""><a href=""><img src="" alt="">todolist</a></li>
+                                <li><img src="icon-calendar.svg" alt=""><a href=""><img src="" alt="">calender</a></li>
+                                <li><img src="icon-reminders.svg" alt=""><a href=""><img src="" alt="">reminder</a></a></li>
+                                <li><img src="icon-planning.svg" alt=""><a href=""><img src="" alt="">planning</a></li>
+                            </ul>
+                            
+                        </div>
+
+                    </li>
+                    <li> 
+                        <a href="#"> Company <img id="up1" onclick="closeDropDownCompany()"  src="icon-arrow-up.svg" alt=""> <img onclick="openDropDownCompany()" id="down1"  src="icon-arrow-down.svg" alt=""></a> 
+                        <div  class="drop-down1">
+                            <ul id="dropDown1">
+                                <li><a href="">history</a></li>
+                                <li><a href="">our team</a></li>
+                                <li><a href="">blog</a></li>
+                            </ul>
+                            
+                        </div>
+                    </li>
+                    <li> 
+                        <a href="">careers</a> 
+                    </li>
+                    <li> 
+                        <a href="">about</a> 
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="right-link">
+            <nav class="right-nav">
+                <ul>
+                    <li><a href="">login</a></li>
+                    <li><a class="register" href="">register</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button id="open-menu" onclick="openMenu()" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+        </button>
+
+        <div id="side-menu" class="links-mobile">
+            <a id="close-menu" class="close" onclick="closemenu()" href="#"><b>&times</b></a>
+            <nav class="left-nav-mobile">
+                <ul>
+                    <li>
+                       <a  href="#"  >features <img id="up" onclick="closeDropDownFeatures()"  src="icon-arrow-up.svg" alt=""> <img  onclick="openDropDownFeatures()" id="down" src="icon-arrow-down.svg" alt=""></a> 
+                        <div  class="drop-down">
+                            <ul id="dropDown">
+                                <li><img src="icon-todo.svg" alt=""><a href=""><img src="" alt="">todolist</a></li>
+                                <li><img src="icon-calendar.svg" alt=""><a href=""><img src="" alt="">calender</a></li>
+                                <li><img src="icon-reminders.svg" alt=""><a href=""><img src="" alt="">reminder</a></a></li>
+                                <li><img src="icon-planning.svg" alt=""><a href=""><img src="" alt="">planning</a></li>
+                            </ul>
+                            
+                        </div>
+
+                    </li>
+                    <li> 
+                        <a href="#"> Company <img id="up1" onclick="closeDropDownCompany()"  src="icon-arrow-up.svg" alt=""> <img onclick="openDropDownCompany()" id="down1"  src="icon-arrow-down.svg" alt=""></a> 
+                        <div  class="drop-down1">
+                            <ul id="dropDown1">
+                                <li><a href="">history</a></li>
+                                <li><a href="">our team</a></li>
+                                <li><a href="">blog</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> 
+                        <a href="">careers</a> 
+                    </li>
+                    <li> 
+                        <a href="">about</a> 
+                    </li>
+                    
+                </ul>
+            </nav>
+            <div class="right-link-mobile">
+                
+                <nav class="right-nav">
+                    <ul>
+                        <li><a href="">login</a></li>
+                        <li><a class="register-mobile" href="">register</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+       
+
+    </header>
+    <main>
+        <section class="left-section">
+            <img class="mobile" src="image-hero-mobile.png" alt="">
+            <h1><b>Make remote work</b></h1>
+            <p>Get your team in sync, no matter your location.
+                Streamline processes, create team rituals, and
+                watch productivity soar.
+            </p>
+            <a href=" ">Learn more</a>
+        </section>
+        <section class="right-section">
+            <img src="image-hero-desktop.png" alt="">
+            
+        </section>
+
+    </main>
+    <footer>
+        <nav class="footer-nav">
+            <ul>
+                <li><img src="client-databiz.svg"></img></li>
+                <li><img src="client-audiophile.svg"></img></li>
+                <li><img src="client-meet.svg"></img></li>
+                <li><img src="client-maker.svg"></img></li>
+            </ul>
+        </nav>
+    </footer>
+    
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>

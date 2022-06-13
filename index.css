@@ -343,7 +343,8 @@ button{
     .left-section .mobile{
         position: relative;
         display: block;
-        margin-left: -9%;
+        width: 120%;
+        margin-left: -8%;
     }
     .right-section img{
         display: none;
@@ -357,7 +358,7 @@ button{
     
     .left-section h1{
         font-weight: bolder;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 10%;
         margin-bottom: 10%;
     }
@@ -379,6 +380,84 @@ button{
         margin-top: 25%;
         margin-left: 2%;
         width: 10%;
+    }
+
+}
+
+@media screen and (max-width: 325px){
+    #upMobile{
+        display: none;
+    }
+    #up1Mobile{
+        display: none;
+    }
+    
+    header .logo{
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .hamburger{
+        display: block;
+        margin-top: 0;
+        cursor: pointer;
+        margin-left: 50%;
+    
+    }
+    body{
+        width: 390px;
+    }
+    .links{
+        display: none;
+    }
+    .right-link{
+        display: none;
+    }
+    main{
+        display: block;
+        width: 90%;
+    }
+    .left-section .mobile{
+        position: relative;
+        display: block;
+        margin-left: -9%;
+    }
+    .right-section img{
+        display: none;
+    }
+    .left-section{
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    
+    .left-section h1{
+        font-weight: bolder;
+        font-size: 1.5rem;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    .left-section p{
+        margin-bottom: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .left-section a{
+        background-color: black;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 30px 50px;
+        border-radius: 20px;
+        margin-left: -10%;
+    }
+    
+    footer {
+        margin-top: 25%;
+        margin-left: 5%;
+        width: 10%;
+    }
+    .footer-nav ul{
+        display: block;
     }
 
 }

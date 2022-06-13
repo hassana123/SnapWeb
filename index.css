@@ -193,7 +193,7 @@ button{
 .register-mobile{
     background-color: #fff;
     border: 1px solid black;
-    padding: 20px 100px;
+    padding: 20px 70px;
     text-align: center;
     border-radius: 15px;
 }
@@ -214,13 +214,35 @@ button{
     margin-bottom: 20%;
 }
 @media screen and (max-width: 550px){
+    .drop-down ul{
+        display: none;
+        background-color: #fff;
+        width: 10%;
+        position: relative;
+        margin-left: -2.5%;
+        padding: 20px;
+        margin-top: 0.5%;
+        border-radius: 10px;
+    }
+    
+    .drop-down1 ul{
+        display: none;
+        background-color: #fff;
+        width: 8%;
+        margin-left: -2%;
+        padding: 20px;
+        position: relative;
+        margin-top: 0.5%;
+        border-radius: 10px;
+    }
+    
     header .logo{
         margin-left: 2%;
         margin-top: 2%;
     }
     .hamburger{
         display: block;
-        margin-left: 70%;
+        margin-left: 65%;
         margin-top: 0;
         cursor: pointer;
     
@@ -237,8 +259,8 @@ button{
     .left-section .mobile{
         position: relative;
         display: block;
-        width: 122%;
-        margin-left: -10%;
+        width: 110%;
+        margin-left: -9%;
     }
     .right-section img{
         display: none;
@@ -249,6 +271,7 @@ button{
     }
     body {
         max-width: 90%;
+        font-size: 1.5rem;
     }
     
     .left-section h1{
@@ -260,7 +283,7 @@ button{
     .left-section p{
         margin-bottom: 20%;
         font-size: 2rem;
-        margin-left: -10%;
+        text-align: center;
     }
     .left-section a{
         background-color: black;
@@ -274,9 +297,87 @@ button{
     footer {
         margin-top: 30%;
         width: 100%;
-        margin-left: 7%;
+        margin-left: 5%;
 
     }
+    #upMobile{
+        display: none;
+    }
+    #up1Mobile{
+        display: none;
+    }
     
+}
+@media screen and (max-width: 385px){
+    #upMobile{
+        display: none;
+    }
+    #up1Mobile{
+        display: none;
+    }
     
+    header .logo{
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .hamburger{
+        display: block;
+        text-align: right;
+        margin-top: 0;
+        cursor: pointer;
+    
+    }
+    .links{
+        display: none;
+    }
+    .right-link{
+        display: none;
+    }
+    main{
+        display: block;
+    }
+    .left-section .mobile{
+        position: relative;
+        display: block;
+        width: 110%;
+        margin-left: -9%;
+    }
+    .right-section img{
+        display: none;
+    }
+    .left-section{
+        text-align: center;
+        width: 50%;
+        
+    }
+    body {
+        max-width: 100%;
+    }
+    
+    .left-section h1{
+        font-weight: bolder;
+        font-size: 3rem;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .left-section p{
+        margin-bottom: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .left-section a{
+        background-color: black;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 30px 50px;
+        border-radius: 20px;
+        margin-left: -10%;
+    }
+    
+    footer {
+        margin-top: 30%;
+        width: 20%;
+        text-align: center;
+
+    }
 }
